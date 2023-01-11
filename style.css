@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.content-height {
+    height: calc(100vh - 100px);
+    min-height: 776px;
+}
+
+.sidebar {
+    min-width: 100px;
+    height: 100%;
+    background-color: #E33C7E;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background: #E33C7E;
+}
+
+.navbar {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-content {
+    width: calc(100% - 100px);
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.content-second img:not(:last-child) {
+    margin-right: 36px;
+}
+
+.search {
+    margin: 0px 22px 0px 0px;
+}
+
+.search-text {
+    outline: none;
+}
+
+.sidebar-first-content {
+    background-color: #D13874;
+    margin-top: 20px;
+}
+
+.sidebar-first-content li {
+    border-radius: 13px;
+    list-style: none;
+    width: 76px;
+    height: 76px;
+}
+
+.sidebar-first-content {
+    border-radius: 13px;
+}
+
+.icon-text {
+    color: #FFFFFF;
+}
+
+.sidebar-first-content li:hover {
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.phone {
+    margin: 18px 0px 20px 0px;
+}
+
+.phone img {
+    width: 24px;
+    height: 24px;
+    margin-right: 13px;
+}
+
+.phone-first,
+.phone-second {
+    width: 224px;
+    height: 33px;
+    border-radius: 33px;
+}
+
+.mail-address {
+    height: 33px;
+    width: 292px;
+    border-radius: 33px;
+}
+
+.phone-first {
+    background: #CFFAC4;
+    margin-right: 9px;
+}
+
+.phone-second {
+    background: #FAC4F4;
+}
+
+.mail-address {
+    background: #C4E6FA;
+}
+
+.mail img {
+    width: 25px;
+    height: 25px;
+    margin-right: 13px;
+}
+
+.section-first {
+    width: 100%;
+    padding: 25px 0px 25px 0px;
+}
+
+.foto-paciente {
+    width: 167px;
+    height: 226px;
+    margin-right: 40px;
+}
+
+.paciete-address {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 28px;
+    margin-bottom: 18px;
+}
+
+.paciente-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 28px;
+    margin-bottom: 18px;
+    color: #0020CA;
+}
+
+.about img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.details-about {
+    margin-right: 46px;
+}
+
+.phone-details,
+.mail-details {
+    margin: 10px;
+}
+
+.content-first,
+.content-second,
+.mail-content,
+.comments-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.comments-title {
+    color: #686868;
+    margin: 0px 8px;
+}
+
+.content-second {
+    color: #650261;
+}
+
+.content-first {
+    color: #016505;
+}
+
+.mail-content {
+    color: #0A5CBC;
+}
+
+.comments-content {
+    width: 341px;
+    height: 186px;
+    background: #F1F1F1;
+    border-radius: 10px;
+    background: #F1F1F1;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #686868;
+    padding: 10px 12px;
+}
+
+@media screen and (max-width: 1369px) {
+    .comments-content {
+        width: 130px;
+    }
+}
+
+.content {
+    width: calc(100% - 100px);
+    height: 100%;
+    overflow: auto;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+.sidebar-second-menu {
+    padding-bottom: 40px !important;
+}
+
+.sidebar-second-menu li {
+    margin-top: 40px;
+}
+
+ul {
+    margin-bottom: 0px;
+}
+
+.content {
+    padding: 0px 35px;
+}
+
+.comments {
+    margin-right: 53px;
+}
+
+.alertas-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 28px;
+    text-align: center;
+    color: #FE428C;
+}
+
+.pretratamento {
+    width: 208px;
+    height: 29px;
+    background: #FFAACB;
+    border-radius: 50px;
+    margin-top: 18px;
+}
+
+.pretratamento-title {
+    color: #A90A48;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.alertas-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    align-items: center;
+    color: #686868;
+    margin-top: 15px;
+}
+
+.alertas-content {
+    margin-top: 9px;
+}
+
+.alertas-icon {
+    min-width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+
+.alertas-icon path {
+    fill: #686868;
+}
+
+.alertas-icon:hover {
+    background: #FFB3B3;
+}
+
+.alertas-icon:hover path {
+    fill: #CD0C0C;
+}
